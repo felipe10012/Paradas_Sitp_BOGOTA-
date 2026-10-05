@@ -1,0 +1,20 @@
+# Entorno virtual de Python (son miles de archivos: nunca se sube)
+.venv/
+venv/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Sistema operativo y editores
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Documentos de la evidencia: el informe se entrega aparte, no va al repositorio
+*.docx
+~$*.docx
+evidencia_*.png
+captura_*.png

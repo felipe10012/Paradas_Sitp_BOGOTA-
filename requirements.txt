@@ -1,0 +1,12 @@
+# Dependencias de la API REST de paraderos del SITP (Python + FastAPI)
+# Se instalan con:  pip install -r requirements.txt
+#
+# httpx   -> se encarga de hablar por HTTP (las peticiones al servicio)
+# fastapi -> el motor web que recibe las peticiones y devuelve respuestas
+# uvicorn -> el servidor que levanta la aplicacion
+#
+# Version probada: Python 3.13.15
+
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+httpx==0.28.1
